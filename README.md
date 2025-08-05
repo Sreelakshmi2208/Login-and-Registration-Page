@@ -46,7 +46,7 @@ Clone the repository
 bash
 Copy
 Edit
-git clone https://github.com/your-username/login-registration-page.git
+git clone (https://github.com/Sreelakshmi2208/Login-and-Registration-Page.git)
 Open index.html in your browser
 
 🧾 License
