@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="background.gif" alt="Background Animation" class="bg-image" />
+    <div class="container">
+        <h2>Register</h2>
+        <form id="registerForm">
+            <input type="text" id="registerUsername" placeholder="Username (6-10 alphabets)" required />
+            <div class="error" id="registerUserError"></div>
+
+            <input type="password" id="registerPassword" placeholder="Password (8-10 chars, 1 upper, 1 special, 1 digit)" required />
+            <div class="error" id="registerPassError"></div>
+
+            <input type="password" id="confirmPassword" placeholder="Confirm Password" required />
+            <div class="error" id="confirmPassError"></div>
+
+            <input type="tel" id="registerPhone" placeholder="Phone Number (10 digits)" required />
+            <div class="error" id="registerPhoneError"></div>
+
+            <input type="email" id="registerEmail" placeholder="Email" required />
+            <div class="error" id="registerEmailError"></div>
+
+            <button type="submit" class="btn">Register</button>
+            <div class="success" id="registerSuccess"></div>
+        </form>
+        <p style="text-align:center;">Already have an account? <a href="index.html">Login here</a></p>
+    </div>
+    <script src="register.js"></script>
+</body>
+</html>
