@@ -33,10 +33,14 @@ Edit
 │
 ├── index.html
 ├── style.css
-├── script.js
+├── register.js
+|---login.js
 └── README.md
 📸 Screenshots
-(Optional: Add images of the UI here)
+<img width="1731" height="814" alt="image" src="https://github.com/user-attachments/assets/b07cf1f5-cee0-476e-9be4-a8a299925be3" />
+
+<img width="1723" height="904" alt="Screenshot 2025-08-03 223714" src="https://github.com/user-attachments/assets/06db3b03-f773-4e1f-a1c9-9edf27f1b8c0" />
+
 
 🚀 Getting Started
 To run this project locally:
